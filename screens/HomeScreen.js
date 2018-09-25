@@ -42,13 +42,13 @@ export default class HomeScreen extends React.Component {
             </View>
 
             <Text style={styles.getStartedText}>
-              David Saint is a react native dev. This seems very difficult.
+              David Saint is a react native dev. This seems very difficult. Just kidding.
             </Text>
           </View>
 
           <View style={styles.helpContainer}>
             <TouchableOpacity onPress={this._handleHelpPress} style={styles.helpLink}>
-              <Text style={styles.helpLinkText}>Help, it didn’t automatically reload!</Text>
+              <Text style={styles.helpLinkText}>Help, it didn’t automatically reload! I am confused</Text>
             </TouchableOpacity>
           </View>
         </ScrollView>
